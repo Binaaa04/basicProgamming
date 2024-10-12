@@ -1,30 +1,36 @@
 import java.util.Scanner;
 /**
- * ForMultiples21
+ * Modifyselection2Exp2
  */
-public class ForMultiples21 {
-
+public class Modifyselection2Exp2 {
     public static void main(String[] args) {
-        Scanner input21 = new Scanner (System.in);
-        int multiple; 
-        int sum= 0;
-        int counter = 0;
-        
+        Scanner input21 = new Scanner(System.in);
+        int totalangle;
+        System.out.println("Input angle 1 :");
+        int angle1 = input21.nextInt();
+        System.out.println("Input angle 2 :");
+        int angle2 = input21.nextInt();
+        System.out.println("Input angle 3 : ");
+        int angle3 = input21.nextInt();
 
-        System.out.print("Input the multiple: ");
-        multiple = input21.nextInt();
-
-        for (int i = 1; i <= 50; i++) {
-            if (i%multiple == 0) {
-                sum = sum + i;
-                counter++;
-                System.out.print(i+ "-");
-                System.out.printf("there are %d numbers that are multiple of %d in range 1 to 50.\n", multiple, sum);
-                System.out.printf("the sum from all multiples of %d in range 1 s.d. 50 is %d.\n", multiple, sum);
+        totalangle = angle1 + angle2 + angle3;
+        if (totalangle == 180) {
+            if (angle1 <= 60) {
+                if (angle2 <= 60) {
+                    if (angle3 <= 60) {
+                        System.out.println("a Equilateral Triangle");
+                    } else {
+                        System.out.println("Not a Equilateral Triangle");
+                    }
+                } else {
+                    System.out.println("a Equilateral Triangle");
+                }
+            } else {
+                System.out.println("Not a Equilateral Triangle");
             }
+        } else {
+            System.out.println("Not a Equilateral Triangle");
         }
-                
-            }
-            
-        }
-        
+        input21.close();
+    }
+}
