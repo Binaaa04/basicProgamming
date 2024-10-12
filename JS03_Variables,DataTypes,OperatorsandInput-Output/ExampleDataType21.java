@@ -4,6 +4,7 @@
 public class ExampleDataType21 {
 
     public static void main(String[] args) {
+        
         char bloodGroup = 'A';
         byte distance = (byte) 130;
         short theNumberOfResidents = 1025;
