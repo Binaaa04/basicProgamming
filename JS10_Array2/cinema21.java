@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class cinema21 {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner input21 = new Scanner(System.in);
         String[][] audience = new String[4][2];
         audience[0][0] = "Amin";
@@ -23,8 +23,8 @@ public class cinema21 {
         System.out.printf("%s\t %s\n", audience[3][0], audience[3][1]);
 
         System.out.println(audience.length);
-        for (int i = 0; i < audience.length; i++) {
-            System.out.println("Length of row " + (i + 1) + ":" + audience[i].length);
+        for (String[] barisAudience : audience) {
+            System.out.println("Length of row: " + barisAudience.length);
         }
         input21.close();
     }
