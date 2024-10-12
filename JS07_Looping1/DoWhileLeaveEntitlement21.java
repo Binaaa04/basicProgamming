@@ -1,9 +1,9 @@
 import java.util.Scanner;
 /**
- * ModifyDoWhilELeaveEntitlement21Exp3
+ * DoWhileLeaveEntitlement21
  */
-public class ModifyDoWhilELeaveEntitlement21Exp3 {
-
+public class DoWhileLeaveEntitlement21 {
+    
     public static void main(String[] args) {
         Scanner input21 = new Scanner(System.in);
         String confirmation;
