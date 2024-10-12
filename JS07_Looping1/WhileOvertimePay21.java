@@ -1,8 +1,8 @@
 import java.util.Scanner;
 /**
- * ModifywhileOvertimePay1
+ * WhileOvertimePay21
  */
-public class ModifywhileOvertimePay1 {
+public class WhileOvertimePay21 {
    public static void main(String[] args) {
       Scanner input21 = new Scanner(System.in);
       int numEmployee, overtimeHours;
