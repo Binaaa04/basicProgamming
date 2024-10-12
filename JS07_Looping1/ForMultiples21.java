@@ -1,8 +1,8 @@
 import java.util.Scanner;
 /**
- * Modifyselection2Exp2
+ * ForMultiples21
  */
-public class Modifyselection2Exp2 {
+public class ForMultiples21 {
     public static void main(String[] args) {
         Scanner input21 = new Scanner(System.in);
         int totalangle;
